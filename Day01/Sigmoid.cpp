@@ -1,3 +1,4 @@
+/*Sigmoid fuction for neural networks*/
 #include<iostream>
 #include<iomanip>
 #include<math.h>
