@@ -1,6 +1,5 @@
 // Single learning neuron for AND, OR gates
 #include <iostream>
-#include <ctime>
 #include <random>
 using namespace std;
 
