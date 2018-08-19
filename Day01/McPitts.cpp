@@ -1,4 +1,4 @@
-/*Simple McPitts neuron model*/
+// Simple McPitts neuron model
 #include<iostream>
 #include<iomanip>
 using namespace std;
