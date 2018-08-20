@@ -1,4 +1,4 @@
-// Hopfield network One
+// Hopfield network
 #include <iostream>
 #include <random>
 using namespace std;
