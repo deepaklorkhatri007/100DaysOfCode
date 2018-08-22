@@ -4,6 +4,8 @@
 #include <math.h>
 using namespace std;
 
+float sig(float);
+
 int main(){
     float m[5][5], act, bigm = -100, sum = 0.0;
     int x[5][5], i1, i2, j1, j2, i, j, k;
