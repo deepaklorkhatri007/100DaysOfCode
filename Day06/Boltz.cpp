@@ -20,7 +20,7 @@ int main(int argc, char const *argv[])
     uniform_int_distribution<> dist3(0, 99);
 
     cout<<"Type in the rows of costs like this : ";
-    cout<<"12 13.6 16 23.1"<<endl;
+    cout<<"0 1 0 1"<<endl;
 
     /*get costs and initialize nodes*/
     for(i=1; i<5; i++){
