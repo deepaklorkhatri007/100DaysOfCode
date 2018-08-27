@@ -1,4 +1,10 @@
 *.o
+*.out
+*.cmake
+Makefile
 .vscode
 a.out
 .ipynb_checkpoints
+build
+CMakeFiles
+CMakeCache.txt
