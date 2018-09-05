@@ -7,7 +7,7 @@ using namespace std;
 using namespace cv;
 
 int main(){
-    double y[1000];
+    double y[1000]; 
     int x;
 
     for(x=0; x<1000; x++){
