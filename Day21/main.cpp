@@ -24,7 +24,7 @@ int main(){
             filledCircle(atom_image, Point(w/2, w/2));
             imshow(atom_window, atom_image);
             atom_image = Mat::zeros(w, w, CV_8UC3);
-            waitKey(40);
+            if(waitKey(40)>0) exit(0);
         }
     }
     
