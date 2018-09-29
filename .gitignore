@@ -9,3 +9,5 @@ build
 CMakeFiles
 CMakeCache.txt
 test
+cfg
+bin
