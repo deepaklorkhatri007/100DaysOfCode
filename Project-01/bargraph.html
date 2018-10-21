@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta  charset="utf-8">
+        <script src = "https://d3js.org/d3.v4.min.js"></script>
+        <title>BarGraph</title>
+    </head>
+    <body>
+        <script>
+            const dataset = [2, 5, 7, 1, 7, 9, 3, 8];
+            const h = 100;
+            const w = 300;
+
+            const svg = d3.select("body")
+                        .append("svg")
+                        .attr("height", h)
+                        .attr("width", w);
+           
+            svg.selectAll("rect")
+            .data(dataset)
+            .enter()
+            .append("rect")
+            .attr("width", 16)
+            .attr("height", d=>10*d)
+            .attr("x", (d, i)=> 20*i)
+            .attr("y", (d, i)=> h-10*d);
+        </script>
+    </body>
+</html>

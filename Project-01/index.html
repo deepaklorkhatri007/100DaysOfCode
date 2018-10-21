@@ -1,14 +1,47 @@
 <!DOCTYPE HTML>
 <html>
     <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
         <script src="https://d3js.org/d3.v4.min.js"></script>
     </head>
     <body>
-        <div class = "mu">
-            Billi Bolli Miau
-        </div>
+        
         <script>
-            d3.select("div.mu").classed("myanotherclass", true);
+            const dataset = [
+                [ 34,    78 ],
+                [ 109,   280 ],
+                [ 310,   120 ],
+                [ 79,    411 ],
+                [ 420,   220 ],
+                [ 233,   145 ],
+                [ 333,   96 ],
+                [ 222,   333 ],
+                [ 78,    320 ],
+                [ 21,    123 ]
+            ]
+            const h = 400;
+            const w = 500
+            var body =  d3.select("body")
+                        .append("svg")
+                        .attr("height", h)
+                        .attr("width", w);
+            body.selectAll("circle")
+            .data(dataset)
+            .enter()
+            .append("circle")
+            .attr("cx", (d, i)=> d[0])
+            .attr("cy", (d, i)=>h-d[1])
+            .attr("r", 5);
+
+            body.selectAll("text")
+            .data(dataset)
+            .enter()
+            .append("text")
+            .text(d=>d)
+            .attr("x", (d, i)=> d[0]+5)
+            .attr("y", (d, i)=>h-d[1]);
+
         </script>
     </body>
 </html>
