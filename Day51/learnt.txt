@@ -1,0 +1,26 @@
+*from module import function -> is specific
+*import module -> should be used if namespace specificity is required
+*lists are within []
+
+#modules used:
+-import random
+-import time
+-import datetime
+-import os
+-import sys
+
+#functions used:
+-datetime.date.isoformat(datetime.date.today())
+-datetime.date.today()
+-time.sleep()
+-time.strftime() ->  %A for day 
+                    %p for A.M (ante merideim) and P.M (post merideim)
+                    %H for hour
+                    %M for minute
+-sys.platform
+-os.getenv('HOME')
+-os.getcwd()
+-random.randint(a, b)
+-range(n)
+-datetime.today().minute
+-print()
