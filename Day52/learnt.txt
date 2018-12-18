@@ -1,0 +1,33 @@
+# ordered
+*list : [] -> square brackets
+*tuple : () -> parantheses
+
+# unordered
+*dictionaries : {} -> curly brackets
+*sets : set([]) -> set function
+
+# iterating things
+
+    lists =>
+        for i in list:
+            print(i)
+    dictionaries =>
+        for key, value in dictionary.items():
+            print(key, value)
+
+# lists
+- word = ''.join(list)
+- list.extend(list)
+- list.append(value)
+- list.remove(value)
+- list.insert(where, what)
+- list.pop() -> pop from end
+- list.pop(index)
+
+# sets
+- a|b -> union
+- a&b -> intersection
+- a<b -> subset (true/false)
+- a>b -> superset (true/false)
+- a-b -> diffrence
+- a^b -> symmetric diffrence
