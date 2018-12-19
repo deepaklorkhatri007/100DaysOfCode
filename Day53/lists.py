@@ -103,3 +103,6 @@ insort(sortedNums, 45)
 # checking where it will lead if we insert it
 # gives the index where it will be if insort()
 bisect(sortedNums, 76)
+
+# count method
+sortedNums.count(45)
