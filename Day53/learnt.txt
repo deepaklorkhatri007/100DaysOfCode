@@ -1,0 +1,31 @@
+# lists
+- list.append()
+- list.index()
+- list.extend()
+- list.count()
+- list.remove()
+- list.sort()
+- list.reverse()
+- list.copy()
+- list.deepcopy()
+- insort(list, value)
+- bisect(list, value)
+
+# dicts
+- dict.items()
+- dict.values()
+- dict.keys()
+- dict.popitem()
+- dict.pop(what)
+- dict.clear()
+- del dict
+
+#sets
+- set.intersection(set)
+- set.issubset(set)
+- set.issuperset(set)
+- set.symmetric_diffrence(set)
+- set.disjoint(set)
+- set.union(set)
+- set.update(set)
+- set.copy()
