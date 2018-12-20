@@ -1,4 +1,4 @@
-def search4vowels(word:str = '') -> set:
+def search4vowels(word):
     vowels = set('aeiou')
     if word == '':
         word = input("Provide a word to search for vowels: ")
