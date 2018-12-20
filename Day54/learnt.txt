@@ -1,0 +1,8 @@
+# function
+def function():
+    suite of code
+
+# create a module
+- file.py setup.py README.txt needed
+- python3 setup.py sdist -> module in /dist
+- python3 -m pip3 install --user file-1.0.tar.gz
