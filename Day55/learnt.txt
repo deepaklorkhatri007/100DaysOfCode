@@ -1,0 +1,26 @@
+# flask
+- from flask import Flask, request, render_template, redirect
+- app = Flask(__name__)
+- @app.route(path, methods = ['POST', 'GET']) -> function decorators
+- app.run() -> to run the app
+# to run only if called with python
+# the suite will not run on server
+if __name__ == '__main__':
+    app.run(debug=True)
+
+
+* templates
+# html template creation
+{{something}} -> can be set using render_template() method
+{% block name%} -> for base html
+
+# in derived html
+# asign code to base template
+{% block name %} 
+{% endblock %} 
+{{isomething}} -> set using render_template()
+
+# in python
+return render_template('template.html', something = 'this is something')
+
+
