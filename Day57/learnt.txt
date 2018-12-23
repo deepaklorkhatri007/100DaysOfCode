@@ -1,0 +1,11 @@
+# database connection
+- mysql.connector -> pip3 install --user mysql-connector
+- mysql_secure_installation -> to setup the maraiadb (terminal command)
+- mysql.connector.connect(**dbconfig)
+- dbconfig -> host, user, password, database
+- connection.cursor()
+- _sql -> """ command """ (docstring command)
+- cursor.execute(_sql)
+- connection.commit()
+- cursor.close()
+- connection.close()
