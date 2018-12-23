@@ -1,0 +1,10 @@
+# files 
+# open process and close
+- file = open('myfile.txt', mode='a') -> appending to file
+- print('this thing', file='myfile.txt')
+- file.close()
+- for line in file:
+    print(line, end='')
+- with open('myfile.txt') as file:
+    for line in file:
+        print(line, end='')
