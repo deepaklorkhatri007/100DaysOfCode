@@ -1,0 +1,7 @@
+# classes encapsulates functions and variables
+# into a single entity
+- class ClassName:
+    def function_name():
+
+- __init__ -> dunder for intializing objects
+- __repr__ -> dunder for how to represent objects
