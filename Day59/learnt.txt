@@ -1,0 +1,3 @@
+# an __init__ method perform initialization (if needed);
+# an __enter__ method to do any setup
+# an __exit__ method to do any teardown (a.k.a tidying-up)
