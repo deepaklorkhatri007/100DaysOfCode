@@ -1,0 +1,5 @@
+# Try Except block
+try:
+    do this
+except Exception as err:
+    exception is "err"
