@@ -1,0 +1,8 @@
+# onverting csv to list/dictionary
+import csv
+with open('file.csv') as data:
+    for line in csv.( DictReader(data)/ reader(data))
+        print(line)
+
+# comprehensions
+even = [i for i in range(10) if i%2==0]
