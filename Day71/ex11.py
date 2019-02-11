@@ -1,3 +1,4 @@
+# fluent python exercise - example 1.1
 import collections
 
 Card = collections.namedtuple('Card', ['rank', 'suit'])
