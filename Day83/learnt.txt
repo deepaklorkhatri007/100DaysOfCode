@@ -1,0 +1,14 @@
+$python is an application that interprets the code we want to execute.
+
+python does not provide multi line comments option
+
+None is not zero it is a special variable that is used For
+stating that no values are given. this is similar to the
+NULL of C++ and null of javascript :)
+
+assert x -> Ensures that bool(x) is True.
+
+
+
+For learning about floating point arithmetic read,
+https://cr.yp.to/2005-590/goldberg.pdf
