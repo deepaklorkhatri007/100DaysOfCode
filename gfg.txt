@@ -1,0 +1,9 @@
+Completed code from Geeks for Geeks course
+
+1. SP-Array and Searching
+        1. Search an element in an Array
+        2. Reverse an Array
+        3. pythagorean triplet
+        4. Rotate Array
+        5. 
+
